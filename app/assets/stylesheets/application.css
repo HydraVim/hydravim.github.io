@@ -1,16 +1,19 @@
+/* BODY */
+:root
+{
+  --github: #141515;
+  --discord: #5464ac;
+  --moon: #eee;
+  --bg-color: #ccc;
+}
 body
 {
   width: 100%;
   min-height: 100vh;
-}
-body, .navbar {
-background-color: #0D0D13;
+  background: linear-gradient(to top, #141515, #4e5d74, #7289da);
 }
 
-#span-brand
+.fa-moon
 {
-  color: #120f7a;
-  font-size: 1.5em;
-  font-weight: bold;
-  font-family: Arial;
+  cursor: pointer;
 }
